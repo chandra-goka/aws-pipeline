@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node C:\\Users\\cgoka\\aws-best-practices\\node_modules\\pm2\\bin\\pm2 start server.js --name hello_aws --log app.log ",
-    "stop": "node C:\\Users\\cgoka\\aws-best-practices\\node_modules\\pm2\\bin\\pm2 stop hello_aws",
+    "start": "node .\\node_modules\\pm2\\bin\\pm2 start server.js --name hello_aws --log app.log ",
+    "stop": "node .\\node_modules\\pm2\\bin\\pm2 stop hello_aws",
     "build": "echo 'Building..'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
